@@ -11,7 +11,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(red, green, blue);
+    background-color: rgb(243,243,243);
     padding: 0;
     margin: 0;
     display: flex;
@@ -34,7 +34,7 @@ body {
 }
 
 .instagram-phone img {
-    height: 50rem;
+    height: 48rem;
 }
 
 .logo-instagram {
@@ -56,8 +56,8 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #fff;
-    width: 100%;
-    padding: 1.3rem 0;
+    width: 85%;
+    padding: 0.6rem 1;
     border: 1px solid lightgray;
 }
 
@@ -66,19 +66,20 @@ body {
 }
 
 .logo-instagram {
-    height: 7rem;
+    height: 7.5rem;
 }
 
 .foto-de-perfil {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 50% solid #050505;
     overflow: hidden;
 }
 
 .foto-de-perfil img {
-    height: 10rem;
+    height: 9rem;
+    margin-bottom: 1.5rem;
 }
 
 .instagram-login {
@@ -86,6 +87,7 @@ body {
     color: white;
     padding: 8px;
     border-radius: 4px;
+    margin: -0.5rem;
 }
 
 .instagram-logout {
@@ -125,11 +127,11 @@ body {
 }
 
 .app-download:nth-child(1) {
-    background-image: url('./app-store.jpg');
+    background-image: url('./1200px-Download_on_the_App_Store_Badge.svg.png');
 }
 
 .app-download:nth-child(2) {
-    background-image: url('./google_play.png');
+    background-image: url('./disponivel-google-play-badge.png');
 }
 
     /*media queries*/
